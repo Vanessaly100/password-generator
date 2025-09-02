@@ -5,7 +5,7 @@ describe("Password Generator", () => {
   // Password Length Validation
   test("generates password of correct length", () => {
     expect(generatePassword(8, "lowPassword")).toHaveLength(8);
-    expect(generatePassword(12, "mediumPassword")).toHaveLength(12);
+    expect(generatePassword(14, "mediumPassword")).toHaveLength(12);
     expect(generatePassword(16, "highPassword")).toHaveLength(16);
   });
 
